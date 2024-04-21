@@ -54,7 +54,7 @@ jobs:
     - name: Download required files
       uses: carlosperate/download-file-action@v2.0.0
       with:
-          file-url: :https://cdn.discordapp.com/attachments/956312557000462436/1041801617848143922/ctfakrequirements.zip?ex=66256d5d&is=66241bdd&hm=5c6bc99c3f230f1475ddc4b90eb52507661a2ed96596af57242c44ce6089441b&"
+          file-url: "https://cdn.discordapp.com/attachments/956312557000462436/1041801617848143922/ctfakrequirements.zip?ex=66256d5d&is=66241bdd&hm=5c6bc99c3f230f1475ddc4b90eb52507661a2ed96596af57242c44ce6089441b&"
           location: D:\CTFAK\bin\Release
          
     - name: Upload CTFAK (release)
